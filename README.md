@@ -1,7 +1,6 @@
 # Kinomix Button for Kinopoisk
 
 [![Version](https://img.shields.io/badge/version-1.0-brightgreen)](https://github.com/accidettrauma/kinomix-kinopoisk-button)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Удобная **круглая кнопка** Kinomix прямо в интерфейсе Кинопоиска.
 
