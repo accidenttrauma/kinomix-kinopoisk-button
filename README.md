@@ -1,7 +1,5 @@
 # Kinomix Button for Kinopoisk
 
-[![Version](https://img.shields.io/badge/version-1.0-brightgreen)](https://github.com/accidettrauma/kinomix-kinopoisk-button)
-
 Удобная **кнопка**, которая добавляет прямую ссылку на просмотр фильма или сериала на **[Kinomix](https://kinomix.web.app)** прямо в интерфейс **[Кинопоиска](https://www.kinopoisk.ru)**.
 
 ### ✨ Что делает скрипт
