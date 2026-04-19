@@ -8,7 +8,7 @@
 // @match        https://www.kinopoisk.ru/series/*
 // @grant        none
 // @run-at       document-end
-// @icon         https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Kinopoisk_colored_favicon.svg/960px-Kinopoisk_colored_favicon.svg.png
+// @icon         https://github.com/accidenttrauma/kinomix-kinopoisk-button/blob/main/icon.png
 // @downloadURL  https://raw.githubusercontent.com/accidettrauma/kinomix-kinopoisk-button/main/kinomix-kinopoisk-button.user.js
 // @updateURL    https://raw.githubusercontent.com/accidettrauma/kinomix-kinopoisk-button/main/kinomix-kinopoisk-button.user.js
 // ==/UserScript==
