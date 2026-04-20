@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Kinomix Button for Kinopoisk
-// @namespace    https://github.com/accidettrauma/kinomix-kinopoisk-button
+// @name         Kinohub Button for Kinopoisk
+// @namespace    https://github.com/accidettrauma/kinohub-kinopoisk-button
 // @version      0.1
 // @description  Круглая кнопка рядом с кнопкой "Буду смотреть"
 // @author       accidettrauma
@@ -8,9 +8,9 @@
 // @match        https://www.kinopoisk.ru/series/*
 // @grant        none
 // @run-at       document-end
-// @icon         https://raw.githubusercontent.com/accidettrauma/kinomix-kinopoisk-button/main/icon.png
-// @downloadURL  https://raw.githubusercontent.com/accidettrauma/kinomix-kinopoisk-button/main/kinomix-kinopoisk-button.user.js
-// @updateURL    https://raw.githubusercontent.com/accidettrauma/kinomix-kinopoisk-button/main/kinomix-kinopoisk-button.user.js
+// @icon         https://raw.githubusercontent.com/accidettrauma/kinohub-kinopoisk-button/main/icon.png
+// @downloadURL  https://raw.githubusercontent.com/accidettrauma/kinohub-kinopoisk-button/main/kinohub-kinopoisk-button.user.js
+// @updateURL    https://raw.githubusercontent.com/accidettrauma/kinohub-kinopoisk-button/main/kinohub-kinopoisk-button.user.js
 // ==/UserScript==
 
 (function () {
@@ -21,10 +21,10 @@
     }
 
     function createButton(filmId, container) {
-        if (document.getElementById('kinomix-gray-btn')) return;
+        if (document.getElementById('kinohub-gray-btn')) return;
 
         const btn = document.createElement('button');
-        btn.id = 'kinomix-gray-btn';
+        btn.id = 'kinohub-gray-btn';
 
         btn.style.cssText = `
             width: 52px !important;
@@ -67,15 +67,15 @@
             svg.style.transform = 'scale(1)';
         };
 
-        btn.title = 'Смотреть на Kinomix';
+        btn.title = 'Смотреть на kinohub';
 
         btn.onclick = (e) => {
             e.stopImmediatePropagation();
-            window.open(`https://kinomix.web.app/film/${filmId}/`, '_blank');
+            window.open(`https://kinohub.web.app/film/${filmId}/`, '_blank');
         };
 
         container.appendChild(btn);
-        console.log(`[Kinomix] Кнопка добавлена для ID ${filmId}`);
+        console.log(`[kinohub] Кнопка добавлена для ID ${filmId}`);
     }
 
     function init() {
