@@ -21,7 +21,7 @@
 <img width="1154" height="637" alt="preview" src="https://github.com/user-attachments/assets/d5d83729-2ccf-4ca3-92e6-45a692bb5b4e" />
 
 **[Флажок в углу экрана](https://raw.githubusercontent.com/accidenttrauma/kinobox-kinopoisk-button/refs/heads/main/kinobox-flag.user.js)**
-### Скриншот
+### Скриншот флажка
 
 <img width="1291" height="783" alt="vivaldi_dQ0tUJNVAF" src="https://github.com/user-attachments/assets/a68df7c6-6f28-4db9-a857-97f594ec63d4" />
 
